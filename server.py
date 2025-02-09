@@ -45,7 +45,7 @@ def handle_client(client_socket):
             value = data.get(key, "Key not found")
             response = f"{key} = {value}\n"
         elif command == "EXIT":  # Exit the session
-            response = "Goodbye!\n"
+            response = "Hajox!\n"
             client_socket.send(response.encode('utf-8'))
             break
         elif command == "\r\n":
