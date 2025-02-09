@@ -9,7 +9,7 @@ DATA_FILE = "data_store.json"
 if not os.path.exists(DATA_FILE):
     with open(DATA_FILE, "w") as file:
         json.dump({}, file)
-
+#testing
 def load_data():
     """Load data from the JSON file."""
     with open(DATA_FILE, "r") as file:
